@@ -46,8 +46,10 @@ const App = () => {
   const [isReady, setIsReady] = useState(false); // integer state
   const LUT_COUNT = 34;
 
+  const someVideo = null; // add a video here.
+
   const videoTexture = new VideoTexture(
-    createVideo(`${process.env.PUBLIC_URL}/static/video/1125831246.mp4`)
+    createVideo(`${process.env.PUBLIC_URL}/static/${someVideo}`)
   );
 
   return (
