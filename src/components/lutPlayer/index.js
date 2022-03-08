@@ -26,7 +26,6 @@ export const LutPlayer = ({ lutMap, videoTexture }) => {
   const composerRef = useRef();
   const lutPassRef = useRef();
 
-  const [currentItemIndex, setCurrentItemIndex] = useState(2);
   const [selection, setSelection] = useState("Arabica_12.CUBE");
 
   useEffect(() => {
