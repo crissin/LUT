@@ -26,7 +26,7 @@ export const LutPlayer = ({ lutMap, videoTexture }) => {
   const composerRef = useRef();
   const lutPassRef = useRef();
 
-  const [selection, setSelection] = useState("Arabica_12.CUBE");
+  const [selection, setSelection] = useState("log3g10_rec709_1.CUBE");
 
   useEffect(() => {
     const CAMERA_Z = 50;
